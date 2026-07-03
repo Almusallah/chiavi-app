@@ -15,6 +15,11 @@
 
 Zero-dependency MVP (Node ≥23.4, `node:sqlite`), fully bilingual EN/IT, self-seeding DB.
 
+**Live prototype:** https://chiavi.onrender.com (free tier — first request after idle
+takes ~50s to wake; demo data reseeds on each deploy). Deploys from the public mirror
+[Almusallah/chiavi-app](https://github.com/Almusallah/chiavi-app); this private repo is
+the source of truth — push here, then `git push mirror main` to release.
+
 ## Run it
 
 ```bash
