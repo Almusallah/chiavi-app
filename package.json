@@ -1,0 +1,14 @@
+{
+  "name": "chiavi",
+  "version": "0.1.0",
+  "description": "Two legal ways to put a parked car to work in Italy: expense-reimbursement sharing and licensed peer rental (SCIA-as-a-service).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=23.4" },
+  "license": "UNLICENSED",
+  "private": true
+}
